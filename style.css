@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: "Hind Siliguri", sans-serif;
+}
+
+body{
+    background-color: #213448;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 40px;
+}
+p{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 500;
+    color: #ECEFCA;
+}
+.calculation-text{
+   margin-top: 20px;
+}
+.main-box{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid #009dff;
+    margin: 0 auto;
+}
+.main-box:hover{
+    border: 1px solid #00609b;
+    
+}
+#usdInput{
+    outline: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 40px 40px;
+    background-color: transparent;
+    border: 1px solid #00a6ff;
+    color: #ECEFCA;
+     padding: 10px;
+}
+#result {
+  margin-left: 95px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00d9ff;
+  }
+
+#usdInput::placeholder{
+    color: #ffffff;
+    text-align: center;
+}
+#usdInput:focus{
+    border: 2px solid #00a2ff;
+    color: #ECEFCA;
+     padding: 10px;        
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(15, 115, 165);
+    border-radius: 5px;
+    border: none;
+    margin: 0px 150px;
+    color: #fff;
+    transition: all linear 0.1s;
+}
+.btn:hover{
+    border: 1px solid #f8f8f8;
+    transform: scale(1.2);
+    background-color: transparent;
+    transition: all linear 0.1s;
+}
+
